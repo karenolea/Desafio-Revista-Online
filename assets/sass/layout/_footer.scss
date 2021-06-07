@@ -1,0 +1,52 @@
+.footer {
+    width: 100%;
+    background-color: rgb(201, 193, 193);
+
+    &__text {
+        background-color: rgb(201, 193, 193);
+        padding: 0.5rem;
+        text-transform: uppercase;
+    }
+
+    &__newsletter {
+        padding: 1rem 1rem 2rem 1rem;      
+    }
+}
+
+.newsletter {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.newsletter h2 {
+    font-size: 24px
+}
+
+.group input,
+.group button {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+
+}
+
+.group button {
+    background-color: coral;
+    color: white;
+}
+
+.footer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.group input{
+    border: 1px solid rgb(71, 70, 70);
+    border-radius: 10px;
+}
+
+.footer h2 p{
+    margin-bottom: .3rem;
+}

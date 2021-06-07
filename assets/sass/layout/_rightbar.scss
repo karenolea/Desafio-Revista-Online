@@ -1,0 +1,38 @@
+.rightbar {
+    border-bottom: 1px solid gray;
+    
+    &__list {
+        border-bottom: 1px solid gray;
+    }
+
+    &__tags {
+        border-bottom: 1px solid gray;
+        text-align: center;
+        ul {
+            padding: 0;
+            list-style: none;
+            li {
+                padding: 3px 5px;
+                background-color: rgb(127, 80, 133);
+                margin-right: 1px;
+                color: white;
+                display: inline-block;
+            }
+        }
+    }
+
+    &__highlight {
+        margin-bottom: 50px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+p{
+    margin-bottom: .3rem;
+}
+
+.rightbar__ul{
+    margin-bottom: .2rem;
+}
